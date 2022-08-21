@@ -1,0 +1,14 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin btn-basic {
+    border: none;
+    outline: none;
+}
+
+$bg-light: #fff;
+
+$primary: #0d66dd;
+
+$text-dark: #232631;
