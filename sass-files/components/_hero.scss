@@ -1,0 +1,107 @@
+#hero {
+  padding-top: 70px;
+
+  .hero {
+    &- {
+      &information {
+        background: $bg-light;
+        border-radius: 24px 12px;
+        width: 230px;
+
+        top: 115px;
+        left: -200px;
+        .info {
+          &- {
+            &top-wrapper {
+              padding: 14px 16px 16px 16px;
+            }
+            &title {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+
+              color: $text-dark;
+            }
+
+            &description {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+
+              color: $text-tertiary;
+            }
+
+            &container {
+              padding: 8px 16px;
+              background-color: $bg-light;
+
+              &.active {
+                background: $bg-tertiary;
+              }
+            }
+
+            &thumbnail {
+              width: 42px;
+              height: 42px;
+              margin-right: 8px;
+            }
+
+            &name {
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 21px;
+
+              color: $text-dark;
+            }
+
+            &role {
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+
+              color: $text-tertiary;
+            }
+
+            &btn {
+              @include theme-btn;
+              width: 100%;
+              height: 41px;
+            }
+
+            &bottom-wrapper {
+                padding: 14px 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section {
+    &- {
+      &title {
+        margin-bottom: 12px;
+      }
+
+      &description {
+        margin-bottom: 56px;
+      }
+
+      &wrapper {
+        transform: scale(.7);
+
+        @include lg {
+            transform: scale(1);
+        }
+        width: 415px;
+        height: 600px;
+      }
+
+      &image {
+        height: 585px;
+        bottom: 0;
+        left: -60px;
+      }
+    }
+  }
+}

@@ -48,8 +48,81 @@ table {
   border-spacing: 0;
 }
 
-html, body {
+html,
+body {
   font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+htmllabel, htmldescription,
+bodylabel,
+bodydescription {
+  font-size: 18px;
+  line-height: 27px;
+}
+htmlmain,
+bodymain {
+  font-size: 42px;
+  line-height: 72px;
+}
+htmlmin-description,
+bodymin-description {
+  font-size: 12px;
+  line-height: 18px;
+}
+htmlmin-text,
+bodymin-text {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.section-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  background: linear-gradient(336.8deg, #0c64dc 2.51%, #2c95db 87.37%), #232631;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-main {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 84px;
+  text-transform: capitalize;
+  color: #232631;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #8a8a8a;
+}
+.section-min-description {
+  font-weight: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #232631;
+}
+.section-min-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #848484;
+}
+.section-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #fff;
+  padding: 12px 32px;
+  background: linear-gradient(336.8deg, #0c64dc 2.51%, #2c95db 87.37%);
+  border-radius: 12px;
 }
 
 .navbar {
@@ -70,8 +143,11 @@ html, body {
   padding: 12px 32px;
 }
 .navbar-btn:last-child {
+  border: none;
+  outline: none;
   background: linear-gradient(336.8deg, rgba(12, 100, 220, 0.1) 2.51%, rgba(44, 149, 219, 0.1) 87.37%);
   color: #2c95db;
+  text-transform: capitalize;
   margin-left: 10px;
 }
 .navbar .brand-logo {
@@ -105,4 +181,87 @@ html, body {
 }
 .navbar .nav-link.active {
   color: #0d66dd;
+}
+
+#hero {
+  padding-top: 70px;
+}
+#hero .hero-information {
+  background: #fff;
+  border-radius: 24px 12px;
+  width: 230px;
+  top: 115px;
+  left: -200px;
+}
+#hero .hero-information .info-top-wrapper {
+  padding: 14px 16px 16px 16px;
+}
+#hero .hero-information .info-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232631;
+}
+#hero .hero-information .info-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #848484;
+}
+#hero .hero-information .info-container {
+  padding: 8px 16px;
+  background-color: #fff;
+}
+#hero .hero-information .info-container.active {
+  background: #f5f5f5;
+}
+#hero .hero-information .info-thumbnail {
+  width: 42px;
+  height: 42px;
+  margin-right: 8px;
+}
+#hero .hero-information .info-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #232631;
+}
+#hero .hero-information .info-role {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #848484;
+}
+#hero .hero-information .info-btn {
+  border: none;
+  outline: none;
+  background: linear-gradient(336.8deg, rgba(12, 100, 220, 0.1) 2.51%, rgba(44, 149, 219, 0.1) 87.37%);
+  color: #2c95db;
+  text-transform: capitalize;
+  width: 100%;
+  height: 41px;
+}
+#hero .hero-information .info-bottom-wrapper {
+  padding: 14px 16px;
+}
+#hero .section-title {
+  margin-bottom: 12px;
+}
+#hero .section-description {
+  margin-bottom: 56px;
+}
+#hero .section-wrapper {
+  transform: scale(0.7);
+  width: 415px;
+  height: 600px;
+}
+@media (min-width: 992px) {
+  #hero .section-wrapper {
+    transform: scale(1);
+  }
+}
+#hero .section-image {
+  height: 585px;
+  bottom: 0;
+  left: -60px;
 }

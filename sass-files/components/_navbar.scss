@@ -7,27 +7,22 @@
     }
 
     &btn {
-        @include btn-basic;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-    
-        color: $text-dark;
-        background-color: $bg-light;
-    
-        border-radius: 12px;
-    
-        padding: 12px 32px; // 12px 32px 12px 32px
-    
-        &:last-child {
-          background: linear-gradient(
-            336.8deg,
-            rgba(12, 100, 220, 0.1) 2.51%,
-            rgba(44, 149, 219, 0.1) 87.37%
-          );
-          color: #2c95db;
-          margin-left: 10px;
-        }
+      @include btn-basic;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: $text-dark;
+      background-color: $bg-light;
+
+      border-radius: 12px;
+
+      padding: 12px 32px; // 12px 32px 12px 32px
+
+      &:last-child {
+        @include theme-btn;
+        margin-left: 10px;
+      }
     }
   }
 
@@ -56,10 +51,10 @@
         text-align: center;
 
         @include lg {
-            &:first-child {
-                margin-left: 60px;
-              }
-              margin-right: 40px;
+          &:first-child {
+            margin-left: 60px;
+          }
+          margin-right: 40px;
         }
       }
 
@@ -78,5 +73,4 @@
       }
     }
   }
-
 }
