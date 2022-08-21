@@ -9,6 +9,8 @@ $text-dark: #232631;
 $text-secondary: #8a8a8a;
 $text-tertiary: #848484;
 
+$orange: #eb7530;
+
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -37,12 +39,20 @@ body {
 }
 
 // h1, h2, h3, h4, h5, h6, p {
-    
+
 // }
 
 @mixin btn-basic {
   border: none;
   outline: none;
+}
+
+@mixin link-basic {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 @mixin theme-btn {
@@ -91,7 +101,6 @@ body {
     }
 
     &min-description {
-      font-weight: 400;
       font-weight: 500;
       font-size: 16px;
       line-height: 24px;
@@ -121,6 +130,15 @@ body {
 
       background: linear-gradient(336.8deg, #0c64dc 2.51%, #2c95db 87.37%);
       border-radius: 12px;
+    }
+
+    &sub {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      text-transform: capitalize;
+
+      color: $text-dark;
     }
   }
 }

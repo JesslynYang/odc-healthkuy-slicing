@@ -1,0 +1,88 @@
+$colors: (
+  2: #fff2f0,
+  3: #eaf9ef,
+  4: #fff6e7,
+  5: #ebf7ff,
+);
+
+#service {
+  padding: 120px 0;
+  .section {
+    &- {
+      &min-description {
+        font-weight: 400;
+
+        color: $text-secondary;
+      }
+    }
+  }
+
+  .service {
+    &- {
+      &col {
+        @for $i from 2 through 5 {
+          &:nth-of-type(#{$i}) .service-icon {
+            background-color: map-get($colors, $i);
+          }
+        }
+        // &:nth-of-type(2) .service-icon {
+        //   background: #fff2f0;
+        // }
+        // &:nth-of-type(3) .service-icon {
+        //   background: #eaf9ef;
+        // }
+        // &:nth-of-type(4) .service-icon {
+        //   background: #fff6e7;
+        // }
+        // &:nth-of-type(5) .service-icon {
+        //   background: #ebf7ff;
+        // }
+      }
+
+      &card {
+        background: $bg-light;
+        border-radius: 12px;
+
+        padding: 24px;
+      }
+
+      &icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 12px;
+
+        margin-bottom: 24px;
+      }
+
+      &title {
+        font-weight: 600;
+
+        text-transform: capitalize;
+
+        color: $text-dark;
+      }
+
+      &description {
+        font-weight: 400;
+
+        color: $text-secondary;
+
+        margin-bottom: 42px;
+      }
+
+      &link {
+        @include link-basic;
+
+        span {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+
+          color: $orange;
+
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}

@@ -88,11 +88,6 @@
       }
 
       &wrapper {
-        transform: scale(.7);
-
-        @include lg {
-            transform: scale(1);
-        }
         width: 415px;
         height: 600px;
       }
