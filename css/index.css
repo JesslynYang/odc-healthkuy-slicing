@@ -319,3 +319,104 @@ bodymin-text {
   color: #eb7530;
   margin-right: 12px;
 }
+
+#specialist .container {
+  background: #fff;
+  border-radius: 24px;
+}
+@media (min-width: 992px) {
+  #specialist .container {
+    padding: 56px;
+  }
+}
+#specialist .specialist-profile {
+  border-radius: 24px;
+  padding: 14px;
+  border: 4px solid transparent;
+  transition: all 0.3s;
+}
+@media (min-width: 1400px) {
+  #specialist .specialist-profile {
+    margin-right: 14px;
+  }
+}
+#specialist .specialist-profile:hover {
+  border: 4px solid #0d66dd;
+}
+#specialist .specialist-profile:hover .specialist-cover,
+#specialist .specialist-profile:hover .specialist-role {
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  #specialist .specialist-wrapper {
+    width: auto;
+  }
+}
+#specialist .specialist-cover {
+  border-radius: 24px;
+  position: absolute;
+  background: rgba(12, 26, 39, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+#specialist .specialist-image {
+  max-width: auto;
+}
+@media (min-width: 1200px) {
+  #specialist .specialist-image {
+    max-width: 240px;
+  }
+}
+#specialist .specialist-role {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+}
+@media (min-width: 576px) {
+  #specialist .specialist-role {
+    font-size: 24px;
+  }
+}
+#specialist .specialist-amount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232631;
+}
+#specialist .specialist-job-role {
+  font-weight: 400;
+  color: #7B7B7B;
+}
+#specialist .specialist-btn {
+  border: none;
+  outline: none;
+  padding: 12px 32px;
+}
+#specialist .specialist-btn:last-child {
+  background: linear-gradient(336.8deg, #0c64dc 2.51%, #2c95db 87.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#specialist .specialist-btn:last-child:hover {
+  outline: none;
+  border: none;
+}
+#specialist .specialist-description {
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+#specialist .specialist-data {
+  margin-bottom: 26px;
+}
+#specialist .section-min-description {
+  font-weight: 400;
+  color: #8a8a8a;
+}
