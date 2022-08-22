@@ -1,0 +1,58 @@
+#reason {
+  padding: 120px 0;
+  .section {
+    &- {
+      &wrapper {
+        width: 415px;
+        height: 604px;
+      }
+
+      &image {
+        width: 518px;
+        height: 600px;
+
+        bottom: 0;
+        left: -50px;
+      }
+
+      &sub {
+        margin-bottom: 32px;
+      }
+
+      &min-description {
+        font-weight: 600;
+        &:first-child {
+          text-transform: capitalize;
+        }
+        &:last-child {
+          color: $text-secondary;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .reason {
+    &- {
+      &card {
+        background: $bg-light;
+        border-radius: 12px;
+
+        padding: 24px 32px;
+        width: fit-content;
+
+        margin-bottom: 24px;
+      }
+
+      &icon {
+        min-width: 52px;
+        min-height: 52px;
+
+        background: $light-primary;
+        border-radius: 12px;
+
+        margin-right: 20px;
+      }
+    }
+  }
+}

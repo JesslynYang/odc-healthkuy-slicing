@@ -420,3 +420,44 @@ bodymin-text {
   font-weight: 400;
   color: #8a8a8a;
 }
+
+#reason {
+  padding: 120px 0;
+}
+#reason .section-wrapper {
+  width: 415px;
+  height: 604px;
+}
+#reason .section-image {
+  width: 518px;
+  height: 600px;
+  bottom: 0;
+  left: -50px;
+}
+#reason .section-sub {
+  margin-bottom: 32px;
+}
+#reason .section-min-description {
+  font-weight: 600;
+}
+#reason .section-min-description:first-child {
+  text-transform: capitalize;
+}
+#reason .section-min-description:last-child {
+  color: #8a8a8a;
+  font-weight: 400;
+}
+#reason .reason-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 32px;
+  width: fit-content;
+  margin-bottom: 24px;
+}
+#reason .reason-icon {
+  min-width: 52px;
+  min-height: 52px;
+  background: #e8f1fc;
+  border-radius: 12px;
+  margin-right: 20px;
+}
