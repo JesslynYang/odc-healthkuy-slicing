@@ -79,6 +79,10 @@ bodymin-text {
   min-width: max-content !important;
 }
 
+.w-min-content {
+  width: min-content;
+}
+
 .brand-logo {
   margin-right: 12px;
 }

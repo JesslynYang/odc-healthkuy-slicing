@@ -74,6 +74,10 @@ body {
     min-width: max-content !important;
 }
 
+.w-min-content {
+    width: min-content;
+}
+
 .brand {
     &- {
       &logo {
