@@ -79,6 +79,18 @@ bodymin-text {
   min-width: max-content !important;
 }
 
+.brand-logo {
+  margin-right: 12px;
+}
+.brand-title {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #232631;
+}
+
 .section-label {
   font-weight: 500;
   font-size: 18px;
@@ -159,16 +171,6 @@ bodymin-text {
   color: #2c95db;
   text-transform: capitalize;
   margin-left: 10px;
-}
-.navbar .brand-logo {
-  margin-right: 12px;
-}
-.navbar .brand-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: capitalize;
-  color: #232631;
 }
 .navbar .nav-item {
   margin: 10px 0;
@@ -627,4 +629,16 @@ bodymin-text {
   height: 575px;
   bottom: -10px;
   left: -90px;
+}
+
+footer {
+  padding: 65px 0;
+  background: #232631;
+}
+footer .section-min-description {
+  color: #6B738E;
+  margin-bottom: 14px;
+}
+footer .section-min-description:last-child {
+  margin-bottom: 50px;
 }

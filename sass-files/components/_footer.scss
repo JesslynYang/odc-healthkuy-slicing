@@ -1,0 +1,17 @@
+footer {
+    padding: 65px 0;
+    background: #232631;
+
+    .section {
+        &- {
+            &min-description {
+                color: $text-light-grey;
+                margin-bottom: 14px;
+
+                &:last-child {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
