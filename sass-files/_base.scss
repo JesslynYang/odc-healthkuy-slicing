@@ -49,10 +49,11 @@ body {
   outline: none;
 }
 
-@mixin link-basic {
+@mixin link-basic($color: $text-dark) {
     text-decoration: none;
 
     &:hover {
+        color: $color;
         text-decoration: none;
     }
 }
@@ -66,6 +67,10 @@ body {
   );
   color: #2c95db;
   text-transform: capitalize;
+}
+
+.min-w-max-content {
+    min-width: max-content !important;
 }
 
 .section {
