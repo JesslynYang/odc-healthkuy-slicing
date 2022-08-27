@@ -556,3 +556,75 @@ bodymin-text {
 #article .section-description:not(.article-author) {
   color: #232631;
 }
+
+#review {
+  padding: 120px 0;
+}
+#review .col-lg-6:last-child {
+  padding-left: 100px;
+}
+#review .review-card {
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  background-color: #fff;
+}
+@media (min-width: 992px) {
+  #review .review-card {
+    max-width: 560px;
+  }
+}
+#review .review-profile {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+}
+#review .review-name {
+  color: #232631;
+}
+#review .review-btn {
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 12px;
+  padding: 12px 32px;
+  border: none;
+  outline: none;
+  background: linear-gradient(336.8deg, rgba(12, 100, 220, 0.1) 2.51%, rgba(44, 149, 219, 0.1) 87.37%);
+  color: #2c95db;
+  text-transform: capitalize;
+  background-color: white;
+  border: 1px solid #2c95db;
+}
+#review .review-information {
+  top: -80px;
+  left: -80px;
+  box-shadow: -24px 27px 65px rgba(216, 216, 216, 0.14);
+  border-radius: 24px;
+}
+#review .review-icon {
+  width: 64px;
+  height: 64px;
+  background: #E7F0FC;
+}
+#review .review-total {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232631;
+}
+#review .section-wrapper {
+  width: 416px;
+  height: 475px;
+}
+#review .section-image {
+  width: 588px;
+  height: 575px;
+  bottom: -10px;
+  left: -90px;
+}
