@@ -4,15 +4,24 @@ $bg-light: #fff;
 $bg-tertiary: #f5f5f5;
 
 $light-primary: #e8f1fc;
-$primary: #0d66dd;
+// $primary: #0d66dd;
 
-$text-dark: #232631;
+// $text-dark: #232631;
 $text-secondary: #8a8a8a;
 $text-tertiary: #848484;
 $text-grey: #7B7B7B;
 $text-light-grey: #6B738E;
 
 $orange: #eb7530;
+
+:root {
+    --primary: #0d66dd;
+    --text-dark: #232631;
+
+}
+
+$primary: var(--primary);
+$text-dark: var(--text-dark);
 
 html,
 body {

@@ -48,6 +48,11 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  --primary: #0d66dd;
+  --text-dark: #232631;
+}
+
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -92,7 +97,7 @@ bodymin-text {
   font-size: 24px;
   line-height: 36px;
   text-transform: capitalize;
-  color: #232631;
+  color: var(--text-dark);
 }
 
 .section-label {
@@ -111,7 +116,7 @@ bodymin-text {
   font-size: 56px;
   line-height: 84px;
   text-transform: capitalize;
-  color: #232631;
+  color: var(--text-dark);
 }
 .section-description {
   font-weight: 400;
@@ -124,7 +129,7 @@ bodymin-text {
   font-size: 16px;
   line-height: 24px;
   /* identical to box height */
-  color: #232631;
+  color: var(--text-dark);
 }
 .section-min-text {
   font-weight: 400;
@@ -148,7 +153,7 @@ bodymin-text {
   font-size: 32px;
   line-height: 48px;
   text-transform: capitalize;
-  color: #232631;
+  color: var(--text-dark);
 }
 
 .navbar {
@@ -163,7 +168,7 @@ bodymin-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #232631;
+  color: var(--text-dark);
   background-color: #fff;
   border-radius: 12px;
   padding: 12px 32px;
@@ -193,10 +198,10 @@ bodymin-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #232631;
+  color: var(--text-dark);
 }
 .navbar .nav-link.active {
-  color: #0d66dd;
+  color: var(--primary);
 }
 
 #hero {
@@ -216,7 +221,7 @@ bodymin-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #232631;
+  color: var(--text-dark);
 }
 #hero .hero-information .info-description {
   font-weight: 400;
@@ -240,7 +245,7 @@ bodymin-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #232631;
+  color: var(--text-dark);
 }
 #hero .hero-information .info-role {
   font-weight: 400;
@@ -309,7 +314,7 @@ bodymin-text {
 #service .service-title {
   font-weight: 600;
   text-transform: capitalize;
-  color: #232631;
+  color: var(--text-dark);
 }
 #service .service-description {
   font-weight: 400;
@@ -320,7 +325,7 @@ bodymin-text {
   text-decoration: none;
 }
 #service .service-link:hover {
-  color: #232631;
+  color: var(--text-dark);
   text-decoration: none;
 }
 #service .service-link span {
@@ -352,7 +357,7 @@ bodymin-text {
   }
 }
 #specialist .specialist-profile:hover {
-  border: 4px solid #0d66dd;
+  border: 4px solid var(--primary);
 }
 #specialist .specialist-profile:hover .specialist-cover,
 #specialist .specialist-profile:hover .specialist-role {
@@ -399,7 +404,7 @@ bodymin-text {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  color: #232631;
+  color: var(--text-dark);
 }
 #specialist .specialist-job-role {
   font-weight: 400;
@@ -536,11 +541,11 @@ bodymin-text {
 }
 #article .section-min-text {
   text-decoration: none;
-  color: #0d66dd;
+  color: var(--primary);
   text-transform: capitalize;
 }
 #article .section-min-text:hover {
-  color: #0d66dd;
+  color: var(--primary);
   text-decoration: none;
 }
 #article .section-min-text.duration {
@@ -560,7 +565,7 @@ bodymin-text {
   color: #8a8a8a;
 }
 #article .section-description:not(.article-author) {
-  color: #232631;
+  color: var(--text-dark);
 }
 
 #review {
@@ -586,7 +591,7 @@ bodymin-text {
   border-radius: 12px;
 }
 #review .review-name {
-  color: #232631;
+  color: var(--text-dark);
 }
 #review .review-btn {
   border: none;
@@ -622,7 +627,7 @@ bodymin-text {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.01em;
-  color: #232631;
+  color: var(--text-dark);
 }
 #review .section-wrapper {
   width: 416px;
